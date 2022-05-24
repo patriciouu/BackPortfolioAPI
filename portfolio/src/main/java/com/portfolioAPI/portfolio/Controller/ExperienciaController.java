@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://portfolioargprogpo.web.app/")
+@CrossOrigin(origins = "http://localhost:4200/")
 @RequestMapping("/portfolio") //Prueba de conexión con el front
 public class ExperienciaController {
     
