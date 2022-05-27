@@ -31,7 +31,8 @@ public class RedSocialService implements IRedSocialService {
 
     @Override
     public RedSocial getRed(Long id) {
-       return redRepo.getById(id);
+        RedSocial red = redRepo.findById(id).orElse(null);
+        return red;
     }
     
     
